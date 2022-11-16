@@ -1,0 +1,24 @@
+body{
+    background: #A0F1EF;
+}  
+
+#main_container{
+        width:800px;
+        margin-top:20px;
+        margin-right:center;
+        margin-left:center;
+        background-color:#E4FBFA;
+        overflow: hidden;
+}
+
+h1{
+    background-color: #74C271;
+    padding-left: 30px;
+}
+h2{
+    background-color: #74C271;
+    padding-left: 30px;
+}
+p{
+    padding-left: 20px;
+}

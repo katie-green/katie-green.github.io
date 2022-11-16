@@ -1,0 +1,83 @@
+/* css used to style experience.html */
+/*   display project examples        */
+
+.pricing {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.pricebox1{
+    background: #E4F7F6;
+    border: 1px solid #000000;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    width: 600px;
+    text-align: center;
+}
+.pricebox {
+    background: #E4F7F6;
+    border: 1px solid #000000;
+    float: left;
+    margin: 10px;
+    text-align: center;
+    width: 50%;
+}
+
+.pricebox h4.price {
+    background:#8CE18A; 
+    color: #5DA2E3;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.pricebox1 h4.price {
+    background: #8CE18A; 
+    color: #5DA2E3;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.pricebox img {
+    margin-bottom: 20px;
+}
+
+.pricebox a.button {
+    display: block;
+    width: 40%;
+    margin: 10px auto;
+    color: #4E6F9E;
+    background: #8CE18A;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 1px;
+}
+.pricebox1 a.button {
+    display: block;
+    width: 15%;
+    margin: 10px auto;
+    color: #4E6F9E;
+    background: #8CE18A;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 1px;
+}
+h3{
+    font-size: 24px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    color: #172348;
+}
+
+.info{
+    font-size: 14px;
+    text-align: center;
+}
+
+footer {
+    clear: left;
+}
