@@ -1,24 +1,39 @@
+html{
+    background: linear-gradient(#A0F1EF, white); 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 body{
     background: #A0F1EF;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 100px;
 }  
-
-#main_container{
-        width:800px;
-        margin-top:20px;
-        margin-right:center;
-        margin-left:center;
-        background-color:#E4FBFA;
-        overflow: hidden;
-}
 
 h1{
     background-color: #74C271;
     padding-left: 30px;
+    text-align: center;
 }
 h2{
     background-color: #74C271;
     padding-left: 30px;
 }
+
+
 p{
     padding-left: 20px;
+}
+
+footer{
+    display: inline-block;
+    line-height: 60px;
+    flex-direction:column;  
+    text-align: center;
+    margin-top:10px;
+    width: 700px;
+    height: 85px;
+    padding-bottom: 5.2rem;
+    position: relative;
 }

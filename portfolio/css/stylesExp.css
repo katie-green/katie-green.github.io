@@ -1,27 +1,69 @@
 /* css used to style experience.html */
 /*   display project examples        */
 
-.pricing {
+.border{
+    border: #000000, 1px, solid;
+}
+
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+
+.mainContainer{
+    width:800px;
+    margin: 20px;
+    background-color:#E4FBFA;
+    overflow: hidden;
+    max-width: 50%;
+    min-width: fit-content;
+    position: relative;
+    padding: 40px;
+    border: 2px black solid;
+}
+
+table {
+    border:2px solid #b3adad;
+    border-collapse:collapse;
+    padding:5px;
+}
+table caption {
+    border:2px solid #000000;
+    padding:5px;
+    background: #367196;
+    color: #000000;
+    font-weight: bold;
+}
+table td {
+    border:2px solid #000000;
+    text-align:center;
+    padding:5px;
+    background: #f6fcfe;
+    color: #313030;
+}
+
+.pricing{
+    display: flex;
+    flex-wrap: wrap;
     width: 90%;
     margin: 0 auto;
+    justify-content: center;
 }
 
 .pricebox1{
     background: #E4F7F6;
-    border: 1px solid #000000;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    margin-left: 10px;
+    border: 2px solid #000000;
     width: 600px;
     text-align: center;
 }
 .pricebox {
     background: #E4F7F6;
-    border: 1px solid #000000;
+    border: 2px solid #000000;
     margin: 10px;
     text-align: center;
     width: 400px;
-    position: relative;
 }
 
 .pricebox h4.price {
@@ -78,6 +120,4 @@ h3{
     text-align: center;
 }
 
-footer {
-    clear: left;
-}
+
