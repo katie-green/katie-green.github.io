@@ -1,17 +1,6 @@
 /* css used to style experience.html */
 /*   display project examples        */
 
-.border{
-    border: #000000, 1px, solid;
-}
-
-h1{
-    text-align: center;
-}
-h2{
-    text-align: center;
-}
-
 .mainContainer{
     width:800px;
     margin: 20px;
@@ -22,12 +11,13 @@ h2{
     position: relative;
     padding: 40px;
     border: 2px black solid;
+    text-align: center;
 }
 
 table {
-    border:2px solid #b3adad;
     border-collapse:collapse;
     padding:5px;
+    display: inline;
 }
 table caption {
     border:2px solid #000000;
@@ -35,7 +25,13 @@ table caption {
     background: #367196;
     color: #000000;
     font-weight: bold;
+    font-size: 20px;
 }
+table th{
+    text-align: center;
+    border:2px solid #000000;
+}
+
 table td {
     border:2px solid #000000;
     text-align:center;
@@ -45,37 +41,27 @@ table td {
 }
 
 .pricing{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    /*display: flex;
     flex-wrap: wrap;
     width: 90%;
     margin: 0 auto;
-    justify-content: center;
+    justify-content: center;*/
 }
 
-.pricebox1{
-    background: #E4F7F6;
-    border: 2px solid #000000;
-    width: 600px;
-    text-align: center;
-}
 .pricebox {
     background: #E4F7F6;
     border: 2px solid #000000;
     margin: 10px;
     text-align: center;
-    width: 400px;
+    width: 250px;
 }
 
 .pricebox h4.price {
-    background:#8CE18A; 
-    color: #5DA2E3;
-    padding: 10px;
-    font-size: 20px;
-}
-
-.pricebox1 h4.price {
-    background: #8CE18A; 
-    color: #5DA2E3;
+    background: linear-gradient(to left, #B288CC, #1d167ad3, #B288CC) ;
+    color: #010101;
     padding: 10px;
     font-size: 20px;
 }
@@ -84,30 +70,6 @@ table td {
     margin-bottom: 20px;
 }
 
-.pricebox a.button {
-    display: block;
-    width: 40%;
-    margin: 10px auto;
-    color: #4E6F9E;
-    background: #8CE18A;
-    text-align: center;
-    font-weight: bold;
-    text-decoration: none;
-    border-radius: 15px;
-    padding: 1px;
-}
-.pricebox1 a.button {
-    display: block;
-    width: 15%;
-    margin: 10px auto;
-    color: #4E6F9E;
-    background: #8CE18A;
-    text-align: center;
-    font-weight: bold;
-    text-decoration: none;
-    border-radius: 15px;
-    padding: 1px;
-}
 h3{
     font-size: 24px;
     margin-top: -10px;
@@ -118,6 +80,7 @@ h3{
 .info{
     font-size: 14px;
     text-align: center;
+    font-weight: bold;
 }
 
 
