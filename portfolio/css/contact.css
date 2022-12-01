@@ -1,0 +1,36 @@
+/*Katie Green
+  November 30, 2022*/
+
+.contact{
+    text-align: right;
+    padding: 30px;
+    font-weight: bold;
+    margin-top: 30px;
+    border: rgb(46, 23, 129) 3px solid;
+    border-radius:  5px;
+}
+.contact-content{
+    text-align: center;
+}
+.submit{
+    display: block;
+    width: 40%;
+    margin: 10px auto;
+    color: #090d14;
+    background: linear-gradient(to left, #8cbdc0, #256f94, #8cbdc0) ;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 1px;
+}
+
+input{
+    transition: all 0.5s ease;
+}
+
+input:focus{
+    font-size: 1.25rem;
+    padding: 10px;
+    outline: none;
+}
