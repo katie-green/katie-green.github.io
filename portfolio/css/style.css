@@ -1,0 +1,118 @@
+/*Katie Green
+  November 30, 2022*/
+  
+@import url(fonts/quicksand.css);
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+
+html{
+    background: linear-gradient(#A0F1EF, white); 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+body{
+    font-family: 'quicksand', "Times New Roman", "Sarif";
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px;
+}  
+
+.intro{
+    border: rgb(46, 23, 129) 3px solid;
+    border-radius: 10%;
+    text-align: center;
+    padding: 30px;
+}
+
+h1{
+    background: linear-gradient(to left, #B288CC, #3e36b0e3, #B288CC) ;
+    text-align: center;
+    color: #010101;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Ms Madi', cursive;
+    font-weight: bold;
+    letter-spacing: 1px;
+    display: flex;
+    flex-direction: column;
+    width: 100%
+}
+
+a.button {
+    display: block;
+    width: 40%;
+    margin: 10px auto;
+    color: #090d14;
+    background: linear-gradient(to left, #8cbdc0, #256f94, #8cbdc0) ;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 1px;
+}
+h2{
+    background: linear-gradient(to left, #B288CC, #3e36b0e3, #B288CC) ;
+    text-align: center;
+    color: #010101;
+    font-family: 'Ms Madi', cursive;
+    letter-spacing: 1px;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    width: 100%
+}
+
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    background: linear-gradient(to left, #8cbdc0, #256f94, #8cbdc0) ;
+    padding-top: 5px;
+    padding-bottom: 9px;
+    padding-right: 20px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;    color: whitesmoke;
+}
+
+li{
+    text-align: center;
+}
+
+li a{
+    text-align: center;
+    display: inline;
+    color: whitesmoke;
+}
+
+li:hover{
+    background-color: #9378ec;
+}
+
+li a:visited{
+    color: hsl(256.4,74.2%,26.2%);
+}
+
+li:active{
+    background-color: #b6e6ea;
+}
+
+li a:link{
+    color: #b6daea;
+}
+
+p{
+    padding: 20px;
+    font-weight: bold;
+}
+
+footer{
+    display: inline-block;
+    line-height: 60px;
+    flex-direction:column;  
+    text-align: center;
+    margin-top:10px;
+    width: 700px;
+    height: 85px;
+    padding-bottom: 5.2rem;
+    position: relative;
+}
